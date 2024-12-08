@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BondMMA", "BondMMA\BondMMA.csproj", "{0B928914-3661-40FA-AA10-1E60503B18DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B928914-3661-40FA-AA10-1E60503B18DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B928914-3661-40FA-AA10-1E60503B18DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B928914-3661-40FA-AA10-1E60503B18DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B928914-3661-40FA-AA10-1E60503B18DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28E61079-1F65-4CC1-9026-D9685336CE45}
+	EndGlobalSection
+EndGlobal
