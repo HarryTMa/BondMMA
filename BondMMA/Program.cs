@@ -100,19 +100,19 @@
             double[] indices = Enumerable.Range(0, N).Select(i => i / (double)N).ToArray();
             plot.Add.Scatter(indices, pool_r, ScottPlot.Color.FromColor(System.Drawing.Color.Orange));
             plot.Add.Scatter(indices, market_r, ScottPlot.Color.FromColor(System.Drawing.Color.Blue));
-            plot.SavePng("r.png", 1000, 1000);
+            plot.SavePng("r.png", 400, 250);
             plot = new();
             plot.Add.Scatter(indices, diff);
-            plot.SavePng("diff.png", 1000, 1000);
+            plot.SavePng("diff.png", 400, 250);
             plot = new();
             plot.Add.Scatter(indices, equity);
-            plot.SavePng("equity.png", 1000, 1000);
+            plot.SavePng("equity.png", 400, 250);
             plot = new();
             plot.Add.Scatter(indices, pool_r_std);
-            plot.SavePng("std.png", 1000, 1000);
+            plot.SavePng("std.png", 400, 250);
             plot = new();
             plot.Add.Scatter(indices, reject);
-            plot.SavePng("reject.png", 1000, 1000);
+            plot.SavePng("reject.png", 400, 250);
             Console.WriteLine("Cash remains: {0}", cash);
         }
     }
